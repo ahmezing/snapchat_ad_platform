@@ -1,0 +1,62 @@
+[
+    {
+        "name": "Sheila Johnson",
+        "address": "54347 Jordan Circles\nBowmanberg, CT 71598",
+        "email": "myerssarah@example.com",
+        "phone": "(843)487-9901x6353"
+    },
+    {
+        "name": "Seth Anderson",
+        "address": "45898 Rick Ports\nPort Andrew, CO 64705",
+        "email": "linda70@example.org",
+        "phone": "209-618-9914"
+    },
+    {
+        "name": "Allen Phillips",
+        "address": "65928 Anna Fields\nEast Richardburgh, AL 46787",
+        "email": "zacharyperez@example.net",
+        "phone": "284.233.4292x499"
+    },
+    {
+        "name": "Michael Madden",
+        "address": "897 Robert Dam\nWallaceborough, MT 64304",
+        "email": "kennethbrennan@example.org",
+        "phone": "854.912.9360x1844"
+    },
+    {
+        "name": "Vanessa Wright",
+        "address": "6065 Jacob Circle\nNew Heather, GA 20055",
+        "email": "wsparks@example.net",
+        "phone": "+1-777-886-3300x76729"
+    },
+    {
+        "name": "Shawn Wilson",
+        "address": "346 Sydney Avenue\nHicksport, AR 85765",
+        "email": "karen59@example.net",
+        "phone": "(714)431-5803x451"
+    },
+    {
+        "name": "Stephen Henry",
+        "address": "8108 Wells Shoals\nJorgemouth, TX 51656",
+        "email": "fyoung@example.net",
+        "phone": "+1-385-894-4889x42564"
+    },
+    {
+        "name": "Jim Combs",
+        "address": "52261 Megan Pines Apt. 850\nWest Pennystad, PW 12005",
+        "email": "kaylee60@example.com",
+        "phone": "988-653-8676"
+    },
+    {
+        "name": "Steven Griffin",
+        "address": "8889 Mitchell Vista\nAnnabury, AR 62290",
+        "email": "lewisjerome@example.com",
+        "phone": "(562)639-4194"
+    },
+    {
+        "name": "Eric York",
+        "address": "5438 Stacey Land\nSeanhaven, NY 91068",
+        "email": "ericsmith@example.net",
+        "phone": "268.586.6162x49121"
+    }
+]

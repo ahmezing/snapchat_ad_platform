@@ -1,2 +1,5 @@
 #env
 env
+
+#env | grep -i env
+.env
