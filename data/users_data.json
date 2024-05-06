@@ -1,0 +1,41 @@
+{
+    "users": [
+        {
+            "schema": [
+                "EMAIL_SHA256"
+            ],
+            "data": [
+                [
+                    "0af851a57dd0edf02ad57392b1016e200138a27cf206a4cd54787fbe53398dd0"
+                ],
+                [
+                    "6428980423cbd0a7d2e0ef549e097044ab89bfb26160b95e4b402a35c3d634e9"
+                ],
+                [
+                    "b500b0b160a041812ac7a6107bd4d670bf68aff00decd5ad3bb66844a5297236"
+                ],
+                [
+                    "2a86402789980a4e0f7387b7404807de1cb695f213f8893ed87a08466a22eacb"
+                ],
+                [
+                    "b83ac5149c6494d8e1707f5bca779c53628bfaf442190e450bff8d2de7750570"
+                ],
+                [
+                    "33c7a4f24b421bbdecef4411af4bf6dde11c3d9eab637488f4b42e05ad6c5679"
+                ],
+                [
+                    "e2df6748295272a2bdd1be1aab7a569104d116d0cc5dc3620a44bf5dda766991"
+                ],
+                [
+                    "40cae196ec8c27f88bfdf4fb979c8ea5c249ffb7a45868b7927e5ecc3a7f6fa1"
+                ],
+                [
+                    "921bbfca65f8d800f96d8736700cc83dc70b9cc0432cac4da0b6dff12e967af9"
+                ],
+                [
+                    "109d7eee9840f4f923c8c59243a7d021c6ff301d998fb0dac758ab8308085f61"
+                ]
+            ]
+        }
+    ]
+}
