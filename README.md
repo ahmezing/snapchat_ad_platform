@@ -41,15 +41,19 @@ pip install flask requests python-dotenv
 ### Configuration
 
 
-1. **Environment Variables**
-Set up the necessary environment variables. Create a `.env` file in the root directory of your project and populate it with the following:
+### Configuration
 
-CLIENT_ID=your_client_id (avaliable in .env.example)
-CLIENT_SECRET=your_client_secret (avaliable in .env.example)
-REDIRECT_URI=https://127.0.0.1:8000/callback
-REFRESH_TOKEN=your_refresh_token (you have to get it from setting up the app)
-ACCESS_TOKEN=your_access_token (you have to get it from setting up the app)
-TEST_SEGMENT_ID=your_test_segment_id (avaliable in .env.example)
+1. **Environment Variables**
+   Set up the necessary environment variables by creating a `.env` file in the root directory of your project. Populate it with the following entries:
+
+   ```plaintext
+   CLIENT_ID=your_client_id # Available in .env.example
+   CLIENT_SECRET=your_client_secret # Available in .env.example
+   REDIRECT_URI=https://127.0.0.1:8000/callback
+   REFRESH_TOKEN=your_refresh_token # Obtain this from setting up the app
+   ACCESS_TOKEN=your_access_token # Obtain this after authentication
+   TEST_SEGMENT_ID=your_test_segment_id # Available in .env.example
+
 
 
 
