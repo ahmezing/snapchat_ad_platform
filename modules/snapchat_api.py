@@ -48,6 +48,49 @@ class SnapchatAPI:
         else:
             raise Exception(f"Failed to push user data: {response.text}")
 
+    def create_segment(self, name, description, ad_account_id):
+        """
+        Create a new custom segment and store its ID.
+        """
+        if not self.access_token:
+            self.authenticate()  # Ensure we're authenticated
+
+        url = f"{self.base_url}/v1/adaccounts/{ad_account_id}/segments"
+        headers = {
+            "Authorization": f"Bearer {self.access_token}",
+            "Content-Type": "application/json"
+        }
+        payload = {
+            "segments": [{
+                "name": name,
+                "description": description,
+                "source_type": "FIRST_PARTY",
+                "retention_in_days": 180,
+                "ad_account_id": ad_account_id
+            }]
+        }
+
+        # Print the payload for debugging purposes
+        print("Payload being sent:", json.dumps(payload, indent=4))
+
+        response = requests.post(url, headers=headers, json=payload)
+
+        # Check if the request was successful
+        if response.status_code == 200:
+            response_data = response.json()
+            segments_info = response_data.get('segments', [])
+
+            # Check if at least one segment was created
+            if segments_info and 'segment' in segments_info[0]:
+                segment_info = segments_info[0]['segment']
+                segment_id = segment_info['id']
+                logging.info(f"Created new segment: {name} (ID: {segment_id})")
+                return segment_id
+            else:
+                raise Exception(f"Failed to retrieve created segment information: {response.text}")
+        else:
+            raise Exception(f"Failed to create segment: {response.text}")
+
     def read_user_data(self, file_path):
         with open(file_path, 'r') as f:
             return json.load(f)
