@@ -46,6 +46,7 @@ Install all required packages that are used in the project:
    AD_ACCOUNT_ID=your_ad_account_id # paste your own
    TEST_SEGMENT_ID=your_test_segment_id # Obtain this from the api, or you can use an existing one
 2. **OAuth App Setup**
+   
 If you already have a Snapchat OAuth application:
 
     Replace the CLIENT_ID, CLIENT_SECRET, and REDIRECT_URI values in your .env file with those from your existing app.
